@@ -1,5 +1,6 @@
 <template>
     <div id="pokemon">
+        
         <div class="card">
         <div class="card-image">
             <figure>
@@ -9,7 +10,7 @@
         <div class="card-content">
             <div class="media">
             <div class="media-content">
-                <p class="title is-4">{{ num }} - {{ upper(name)}}</p>
+                <p class="title is-4">{{ num }}  {{ upper(name)}}</p>
                 <p class="subtitle is-6">{{ pokemon.type }}</p>
             </div>
             </div>
